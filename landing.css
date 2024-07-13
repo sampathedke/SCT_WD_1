@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+}
+.last{
+    /* display: flex; */
+    float: right;
+    margin: 0%;
+    
+    margin-top: 15px;
+    font-size: larger;
+width: 30px;
+font-weight:bolder;
+cursor: pointer;
+}
+ul li {
+    list-style-type: none;
+  }
+  
+  .title{
+    align-items: center;
+    display: inline;
+  }
+  h1{
+    margin: 0%;
+    margin-top: 10px;
+  }
+  a {
+    float:inline-start;
+    
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  a:hover {
+    color: var(--secondary-color);
+  }
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    display: block;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-menu li a:hover,
+.nav-menu li a.active {
+    color: #ff6600;
+    /* background-color: #444; */
+}
+
+section {
+    padding: 80px 20px 20px;
+    min-height: 70vh;
+}
+
+.home{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px ridge black;
+    border-radius: 6px;
+    opacity: 0.8;
+    color: rgb(0, 255, 0);
+}
+section#home {
+    background: url('pr.jpeg') no-repeat center center/cover;
+    opacity: 0.99;
+    /* color: white; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 50px;
+}
+
+section#about,
+section#services,
+section#contact {
+    background-color: #f4f4f4;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+}
